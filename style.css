@@ -1,0 +1,139 @@
+
+/* nav style */
+.nav-item{
+    padding: 0px 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    
+}
+.cart-icon{
+    color: aliceblue;
+}
+.active:hover{
+    text-decoration: underline 1px;
+}
+
+.nav-item:hover{
+    letter-spacing: 5px;
+    transition: 1s;
+    color: rgb(238, 27, 150);
+    
+}
+/* nav style end */
+
+/* banner start */
+#hero{
+    background-image:url("img/hero4.png");
+    height: 130vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-position: top 30% right 30%;
+}
+.heroinfo{
+padding-top: 320px;
+
+}
+.heroh1{
+    font-size: 80px;
+    color: rgb(86, 55, 211);
+}
+.heroh2{
+    font-size: 60px;
+}
+.btn-hero{
+    background-image: url("img/button.png");
+    background-color: transparent;
+    color: rgb(3, 71, 71);
+    width: 220px;
+    margin-top: 20px;
+    cursor: pointer;
+    
+    
+}
+.shop{
+    color: rgb(27, 156, 156);
+}
+/* banner end */
+
+/* feature start */
+
+.feature{
+    margin-top: 70px;
+}
+.fa-solid{
+    color: yellow;
+}
+.f61{
+    background-color: rgb(249, 225, 195);
+    width: 150px;
+    height: 25px;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+.c1{
+    border: 1px solid rgb(15, 15, 15);
+    height: 190px;
+    width: 180px;
+    box-shadow: 3px 3px  3px 3px rgb(181, 179, 179);  
+    margin-left: 40px;
+    
+}
+.c1img{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.f62{
+    background-color: rgb(136, 188, 106);
+    width: 150px;
+    height: 25px;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+.f63{
+    background-color: rgb(126, 130, 250);
+    width: 150px;
+    height: 25px;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+.f64{
+    background-color: rgb(176, 122, 56);
+    width: 150px;
+    height: 25px;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+.f65{
+    background-color: rgb(251, 190, 115);
+    width: 150px;
+    height: 25px;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+.f66{
+    background-color: rgb(155, 120, 198);
+    width: 150px;
+    height: 25px;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+/* feature end */
+
+
+
+@media screen and (max-width:480px) {
+    .c1{
+        margin-top: 50px;
+    }
+    .btn-hero{
+        background-color: aqua;
+    }
+}
