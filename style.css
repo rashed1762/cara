@@ -127,13 +127,113 @@ padding-top: 320px;
 
 /* feature end */
 
+/* banner 2 */
+.banner2{
+    background-image: url("img/banner/b2.jpg");
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+    padding-top: 90px;
+    height: 280px;
+    width: 100;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.off{
+    color: red;
+}
+/* banner2 end */
 
+/* banner3 start */
+
+.banner3{
+    margin-top: 60px;
+}
+.banner3-part1{
+    background-image: url("img/banner/b17.jpg");
+    height: 330px;
+    
+}
+.banner3-part2{
+    background-image: url("img/banner/b10.jpg");
+}
+.banner3-info{
+    margin-top: 100px;
+    color: white;
+    margin-left: 30px;
+}
+ /* banner3 end */
 
 @media screen and (max-width:480px) {
     .c1{
         margin-top: 50px;
+        margin-left: 120px;
     }
-    .btn-hero{
-        background-color: aqua;
+    .f61{
+        background-color: rgb(249, 225, 195);
+        width: 140px;
+        height: 25px;
+        margin-top: 15px;
+        border-radius: 8px;
     }
+
+    .f62{
+        background-color: rgb(136, 188, 106);
+        width: 140px;
+        height: 25px;
+        margin-left: 20px;
+        margin-top: 15px;
+        border-radius: 8px;
+    }
+    .f63{
+        background-color: rgb(126, 130, 250);
+        width: 140px;
+        height: 25px;
+        margin-left: 20px;
+        margin-top: 15px;
+        border-radius: 8px;
+    }
+    .f64{
+        background-color: rgb(176, 122, 56);
+        width: 140px;
+        height: 25px;
+        margin-left: 20px;
+        margin-top: 15px;
+        border-radius: 8px;
+    }
+    .f65{
+        background-color: rgb(251, 190, 115);
+        width: 140px;
+        height: 25px;
+        margin-left: 20px;
+        margin-top: 15px;
+        border-radius: 8px;
+    }
+    .f66{
+        background-color: rgb(155, 120, 198);
+        width: 140px;
+        height: 25px;
+        margin-left: 20px;
+        margin-top: 15px;
+        border-radius: 8px;
+    }
+        .btn-hero{
+            background-color: aqua;
+        }
+
+        .card{
+            margin-left: 40px;
+            cursor: pointer;
+        }
+        .product-second{
+            margin-top: 40px;
+            margin-right: 10px;
+        }
+
+        .banner3-part2{
+            margin-top: 40px;
+        }
+    
+
+
+
 }
