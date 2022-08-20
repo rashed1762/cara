@@ -1,5 +1,10 @@
 
 /* nav style */
+
+.navbar{
+    background-image: url("img/nav.jpg");
+    
+}
 .nav-item{
     padding: 0px 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -211,11 +216,72 @@ padding-top: 320px;
 }
 
 
-@media (max-width:820px) {
+/* shop page start */
+
+.shop-hero{
+    background-image: url("img/banner/b1.jpg");
+    height: 280px;
+}
+.shop-heroinfo{
+    color: white;
+    text-align: center;
+    padding-top: 70px;
+}
+.shop-heroinfo h1{
+    font-size: 60px;
+}
+
+#new-arrival{
+    margin-top: 60px;
+}
+.product{
+    margin-top: 60px;
+}
+#product2{
+    margin-top: 30px;
+}
+
+/* blog part */
+
+.blog-hero{
+    background-image: url("img/banner/b19.jpg");
+    height: 280px;
+}
+.blog1{
+    margin-top: 120px;
+}
+.blog-img1{
+    height: 400px;
+    width: 500px;
     
+}
+.blog-info{
+    margin-top: 90px;
+    
+}
+
+.blog2{
+    margin-top: 70px;
+}
+.blog3{
+    margin-top: 70px;
+}
+.blog4{
+    margin-top: 70px;
+}
+.blog5{
+    margin-top: 70px;
+}
+
+
+
+
+@media (max-width:820px) {
+
     .menu{
-        margin-right: 940px;
+        margin-right: 60px;
     }
+    
     .img1{
             
         width: 200px;
@@ -246,18 +312,37 @@ padding-top: 320px;
         display: inline;
         
     }
+    .blog-img1{
+        height: 200px;
+        width: 300px;
+        margin-left: 20px;
+        margin-top: 70px;
     
 }
+
+.blog-info{
+   margin-bottom: 80px;
+
+}
+
+
+}
+    
+    
+
+
+
+  
+    
+
 
 
 
 
 @media screen and (max-width:480px) {
-    .navbar{
-        width: 200px;
-    }
+    
     .navbar-toggler-icon{
-        margin-right: 120px;
+        margin-right: 20px;
     }
     
     
@@ -370,6 +455,24 @@ padding-top: 320px;
             margin-left: 60px;
         }
 
+        .last-part{
+            margin-right: 50px;
+        }
+
+        .blog-img1{
+            height: 200px;
+            width: 300px;
+            margin-left: 20px;
+            
+        }
+        .blog-hero{
+            background-image: url("img/banner/b19.jpg");
+            height: 240px;
+            width: 400px;
+        }
+}
+
+        
         
      
-}
+
