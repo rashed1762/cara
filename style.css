@@ -48,9 +48,12 @@ padding-top: 320px;
     width: 220px;
     margin-top: 20px;
     cursor: pointer;
+    border: none;
     
     
 }
+
+
 .shop{
     color: rgb(27, 156, 156);
 }
@@ -162,8 +165,102 @@ padding-top: 320px;
     margin-left: 30px;
 }
  /* banner3 end */
+ .banner4{
+    margin-top: 60px;
+    margin-right: 120px;
+}
+
+ .img1{
+    width: 400px;
+    height: 248px;
+    position: absolute;
+}
+.img2{
+    width: 500px;
+    height: 250px;
+
+    position:absolute;
+}
+.img3{
+    width: 400px;
+    height: 249px;
+    position: absolute;
+}
+.info{
+    
+    position: relative;
+    margin-top: 100px;
+    margin-left: 20px;
+    color: white;
+}
+.Fotter{
+    margin-top: 170px;
+}
+.fa-brands{
+    padding: 3px;
+}
+.fa-brands:hover{
+    color: rgb(218, 26, 211);
+}
+.pay{
+    display: flex;
+}
+.last-part{
+    margin-top: 120px;
+    text-align: center;
+}
+
+
+@media (max-width:820px) {
+    
+    .menu{
+        margin-right: 940px;
+    }
+    .img1{
+            
+        width: 200px;
+        height: 119px;
+            position: absolute;
+        
+        
+    }
+    .img2{
+        width: 200px;
+        height: 119px;
+    
+        position:absolute;
+    }
+    .img3{
+        width: 200px;
+        height: 119px;
+        position: absolute;
+    }
+    .info{
+    
+        position: relative;
+        margin-top: 150px;
+        margin-left: 20px;
+        color: rgb(217, 116, 116);
+    }
+    .pay{
+        display: inline;
+        
+    }
+    
+}
+
+
+
 
 @media screen and (max-width:480px) {
+    .navbar{
+        width: 200px;
+    }
+    .navbar-toggler-icon{
+        margin-right: 120px;
+    }
+    
+    
     .c1{
         margin-top: 50px;
         margin-left: 120px;
@@ -228,12 +325,51 @@ padding-top: 320px;
             margin-top: 40px;
             margin-right: 10px;
         }
+        .banner3-part1{
+            width: 400px;
+        }
 
         .banner3-part2{
             margin-top: 40px;
+            width: 400px;
         }
+         .img1{
+            
+            width: 200px;
+            height: 119px;
+                position: absolute;
+            
+            
+        }
+        .img2{
+            width: 200px;
+            height: 119px;
+        
+            position:absolute;
+        }
+        .img3{
+            width: 200px;
+            height: 119px;
+            position: absolute;
+        }
+        .info{
     
+            position: relative;
+            margin-top: 150px;
+            margin-right: 120px;
+            color: rgb(224, 25, 25);
+        }
+        .banner4-part1{
+            margin-left: 60px;
+        }
+        .banner4-part2{
+            margin-left: 60px;
+        }
+        
+        .banner4-part3{
+            margin-left: 60px;
+        }
 
-
-
+        
+     
 }
